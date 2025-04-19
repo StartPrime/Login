@@ -3,3 +3,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+input:-webkit-autofill {
+	-webkit-background-clip: text;
+	background-clip: text;
+}

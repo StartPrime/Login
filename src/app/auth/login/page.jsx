@@ -25,7 +25,8 @@ export default function Login() {
 		rememberMe: false,
 	})
 
-	const handleSubmit = () => {
+	const handleSubmit = e => {
+		e.preventDefault()
 		console.log(formData)
 	}
 
