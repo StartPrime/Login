@@ -24,7 +24,9 @@
 		".next/types/**/*.ts",
 		"**/*.ts",
 		"**/*.tsx",
-		"src/app/components/passwordInput.jsx"
+		"src/app/components/passwordInput.jsx",
+		"src/app/utils/validatePassword.js",
+		"src/app/utils/PhoneMaskInput.jsx"
 	],
 	"exclude": ["node_modules"]
 }
